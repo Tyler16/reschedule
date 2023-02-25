@@ -1,2 +1,9 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Calendar from "../lib/CalendarSection/Calendar.svelte";
+    import TodoList from "../lib/TodoSection/TodoList.svelte";
+</script>
+
+<div class="flex mb-4">
+    <TodoList/>
+    <Calendar/>
+</div>
